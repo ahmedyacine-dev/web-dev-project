@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    background-image:  linear-gradient(to bottom, rgba(76, 176, 25, 0.5) ,rgba(76, 176, 25, 0.5)  , rgba(76, 176, 25, 0.5) ), url(log\ in\ background.jpg);
+    background-size: cover;
+    
+    
+
+    
+    
+}
+body { scroll-behavior: smooth;}
+.big-login{
+    width:60%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.8);
+   color: beige;
+   position: relative;
+   left: 20%;
+   top : 400px;
+   scroll-behavior: smooth;
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.gg{
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    box-shadow: ;
+   
+}
+.typing{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    
+    
+}
+.inp {
+    border-radius: 20px;
+    border: black;
+    height: 30px;
+    width: 400px;
+    margin: 20px;
+    padding-left: 10px;
+
+    
+}
+.ep{
+    display: grid;
+    grid-template-columns: 50px 400px;
+}
+.empa{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.type div{
+    width: 30px ;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.type {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+.chose  {
+    height: 60px;
+    width: 60%;
+    position: absolute;
+    top:200px;
+    display: flex;
+    flex-direction: row;
+    left: 20%;
+}
+button{
+   
+  height: 40px;
+  width: 10%;
+  border-radius: 20px;
+  position: absolute;
+bottom: 50px;
+left: 45%;
+border: black;
+background-color: green;
+
+font-size: large;
+font-weight: 300;
+
+
+}
+.ss{
+    height: 40px;
+    width: 40%;
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 30px;
+}
+.sign{
+    color: green;
+}
+.client{
+    display: none;
+}
+.owner{
+    display: none;
+}
+
+.oo{
+    display: none;
+}
+.cc{
+    display: none;
+}
+.nothing{
+    background-color: gray;
+}
+.nothing1{
+    display: none;
+}
+.clll{
+    display: none;
+}
+.clll1{
+    display: block;
+}
+.owww{
+    display: none;
+}
+.owww1{
+    display: block;
+}

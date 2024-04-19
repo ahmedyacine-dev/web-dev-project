@@ -1,0 +1,839 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+ *{ 
+    padding: 0; 
+    margin: 0;
+   
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;}
+
+body{
+    background-color: black;
+}
+html{
+scroll-behavior: smooth
+}
+
+/* the start of nav bar */
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(76, 176, 25);
+    position: fixed;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.8);
+    z-index: 110;
+}
+.nav-contnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.navLogo{
+    height: 60px;
+    margin-left: 20px;
+    
+}
+.ullists {
+    display: flex;
+    flex-direction: row;
+}
+ul li img {
+   
+   width: 20px;
+   
+   
+}
+.ulContainer {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.lists{
+    list-style: none;
+}
+
+.listsImages{
+    list-style: none;
+    margin: 20px;
+    }
+
+   
+
+/* the the end of nav bar */
+
+
+/* about us  */
+.about{ 
+    padding: 100px; 
+    height: 70vh; 
+    background-repeat: no-repeat; 
+    background-image:  linear-gradient(to bottom,transparent , transparent , transparent , transparent , rgb(76, 176, 25)), url(photo_2024-03-26_08-13-44.jpg);
+    background-color: var(grid);
+    background-position: left center; 
+    background-size: cover; 
+    color: white; 
+    text-align: left; 
+    font-size: 28px;  
+    font-weight: 400; 
+     
+  
+} 
+.about.paragraph{ 
+    margin: 20px 0px; 
+    color:rgba(207, 207, 207, 1); 
+ 
+ 
+} 
+.generalabout{ 
+    height: 300px; 
+    width: 800px; 
+    background-color: rgba(19, 103, 37, 0.83); 
+    border-radius: 22px; 
+    text-align: left; 
+    font-weight: 600px; 
+    font-family: 'Inter'; 
+    margin-top: 80px; 
+    font-weight: unset; 
+    box-shadow: #171717; 
+    padding: 5px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 15px; 
+    
+   
+} 
+.joinnnni{ 
+    font-size: xx-large; 
+    font-weight: bolder; 
+    text-align: center; 
+    margin-top: 10px; 
+    text-shadow: #000000; 
+     
+ 
+}
+/* about us  */
+
+
+
+/* discount of the season */
+.discountOfSeason{
+    background-color: #171717 ;
+    position: relative;
+    top: 80px;
+    width: 100%;
+    height:460px;
+   
+   
+    
+}
+.DOSimg{
+    width: 30%;
+    height: 90%;
+    left: 70px;
+    position: absolute;
+ overflow: hidden;
+ top: 30px;
+ background-image: url(./discount\ of\ the\ season.jpg) ;
+ background-position-y: -150px;
+ object-fit: fill;
+
+ 
+ 
+}
+.DOSimg img {
+    position: relative;
+    bottom: 180px;
+}
+.DOSdescreption{
+    position: absolute;
+    height: 430px;
+    top: 30px;
+    right: 250px;
+    width: 40%;
+
+} 
+
+.ImgDesc{
+    display: flex;
+    flex-direction: row  ;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.DOSdescreption h1{
+    position: relative;
+    top: 40px;
+    color: white;
+    left: 40px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+.DOSA{
+    position: relative;
+    color: white;
+     top: 80px;
+}
+.DOSbtn{
+    position: absolute;
+    bottom: 8px;
+    right:  8px ;
+    margin: 45px;
+    height: 40px;
+    width: 80px;
+    border-radius: 8px;
+    background-color: rgb(76, 176, 25);
+}
+.special{
+    color:  white;
+    width: 98%;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+/* discount of the season */
+
+
+
+
+
+
+.more{
+    position: relative;
+    background-color: rgb(76, 176, 25) ;
+    height: 50px ;
+    width: 16%;
+    left: 42%;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+.lr{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+.left-arrow{
+    width: 50px;
+    display: none;
+}
+.arrow-right{
+    width: 50px;
+}
+
+.prod {
+    height: 600px;
+    width: 100%;
+    background-color: #171717;
+    border-radius: 20px;
+    overflow: hidden;
+    color: white;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat( 3 ,1fr);
+    gap: 8%;
+    position: relative;
+    margin: 20px;
+    
+   
+}
+.our{
+    color: white;
+    margin-left: 50px;
+}
+
+
+
+.GP1{
+width: 100%;
+height: 60%;
+background-image: url(gym1.jpg);
+background-size: cover;
+
+}
+.GP2{
+    width: 100%;
+    height: 60%;
+    background-image: url(gym2.jpg);
+    background-size: cover;
+}
+.GP3{
+    background-image: url(gym3.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 60%;
+}
+.GD1{
+
+    width: 100%;
+    height: 40%;
+    position: relative;
+    
+}
+.GD2{
+    width: 100%;
+    height: 40%;
+    
+}
+.GD3{
+
+    width: 100%;
+    height: 40%;
+    
+}
+.GymPlace{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font: 'inter';
+    font-size: 40px;
+}
+h4 {
+    color: white;
+    position: absolute ;
+    
+}
+.Agym{
+    color: white;
+margin: 50px 15px 20px 5px;
+
+}
+.btmg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   margin-bottom: 50px;
+    height: 40px;
+}
+.GYMbtn{
+   
+    
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgb(76, 176, 25) ;
+}
+
+
+
+.spiderman{
+    background-image: url(minou/clothes1.png);
+    width: 100%;
+    background-size: cover;
+    height: 60%;
+}
+.spidermanDescriotion{
+
+    width: 100%;
+    height: 40%;
+    position: relative;
+    text-align: center;
+    
+}
+.spidermandescriptionprice{
+    text-align: end;
+font-weight: bolder;
+font-size: 40px;
+}
+.c2{
+    background-image: url(minou/975005139_max-removebg-preview.png);
+    width: 100%;
+    background-size: cover;
+    height: 70%;
+}
+.c2Descriotion{
+
+    width: 100%;
+    height: 60%;
+    position: relative;
+    text-align: center;
+    
+}
+.c2descriptionprice{
+    text-align: end;
+font-weight: bolder;
+font-size: 40px;
+}
+.c3{
+    background-image: url(minou/anime\ pump\ cover\ white.png);
+    width: 100%;
+    background-size: cover;
+    height: 60%;
+}
+.c3Descriotion{
+
+    width: 100%;
+    height: 60%;
+    position: relative;
+    text-align: center;
+    
+}
+.c3descriptionprice{
+text-align: end;
+font-weight: bolder;
+font-size: 40px;
+}
+.S1{
+    background-image: url(minou/supliments1.png);
+    width: 100%;
+    background-size: cover;
+    height: 60%;
+}
+.S1Descriotion{
+
+    width: 100%;
+    height: 40%;
+    position: relative;
+    text-align: center;
+    
+}
+.s1descriptionprice{
+    text-align: end;
+font-weight: bolder;
+font-size: 40px;
+}
+
+.S2{
+    background-image: url(minou/supliments2.png);
+    width: 100%;
+    background-size: cover;
+    height: 60%;
+
+}
+.S2Descriotion{
+
+    width: 100%;
+    height: 40%;
+    position: relative;
+    text-align: center;
+    
+}
+.s2descriptionprice{
+    text-align: end;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.S3{
+    background-image: url(minou/BCAA.png);
+    width: 100%;
+    background-size: cover;
+    height: 60%;
+}
+.S3Descriotion{
+
+    width: 100%;
+    height: 40%;
+    position: relative;
+    text-align: center;
+    
+}
+.S3descriptionprice{
+   text-align: end;
+font-weight: bolder;
+font-size: 40px; 
+}
+
+.E1{
+    background-image: url(minou/equipement1.png);
+    width: 100%;
+    background-size: cover;
+    height: 60%;
+}
+.E1Descriotion{
+
+    width: 100%;
+    height: 40%;
+    position: relative;
+text-align: center;
+}
+.e1descriptionprice{
+    text-align: end;
+    font-weight: bolder;
+    font-size: 40px; 
+}
+.E2{
+    background-image: url(minou/equipement2.png);
+    width: 100%;
+    background-size: cover;
+    height: 60%;
+  background-position: right;
+}
+.E2Descriotion{
+    width: 100%;
+    height: 40%;
+    position: relative;
+    text-align: center;
+    
+}
+.e2descriptionprice{
+    text-align: end;
+    font-weight: bolder;
+    font-size: 40px; 
+    
+}
+.E3{
+    background-image: url(minou/equipement3.png);
+    width: 100%;
+    background-size: cover;
+    height: 60%;
+}
+.E3Descriotion{
+
+    width: 100%;
+    height: 40%;
+    position: relative;
+    text-align: center;
+    
+}
+.e3descriptionprice{
+    text-align: end;
+    font-weight: bolder;
+    font-size: 40px; 
+}
+
+
+footer{
+    height: 400px;
+    background-color:  rgb(32, 88, 3);
+    width: 100%;
+    position: relative;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+}
+.comunity{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 300px;
+    gap: 20px;
+    
+
+}
+.gymmif{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    
+}
+.gymmif div{
+    
+}
+footer img{
+    height: 100px;
+}
+.al{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    
+   
+   color: white;
+   justify-content: space-around;
+   position: absolute;
+   top: 60px;
+}
+.media{
+    height: 50px;
+    margin: 10px;
+}
+.rights{
+    
+    border-top-color: white;
+    border-top-style: ridge;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    
+position: absolute;
+bottom: 10px;
+color:white;
+display: flex;
+justify-content: center;
+}
+
+
+
+@media (max-width : 700px){
+    body{
+        background-color: bisque;
+    }
+}
+.active2{
+    display: block;
+}
+.act2{
+    display: block;
+}
+.active3{
+    display: block;
+}
+.act3{
+    display: block;
+}
+.GYMbtn:hover {
+    background-color: black;
+    transition: all 0.5s;
+    border-radius: 10px;
+    
+    color:  rgb(76, 176, 25);
+
+}
+input{
+    height: 20px;
+    position: absolute;
+    top: 18px;
+    right: 180px;
+    width: 0px;
+    border-radius: 20px;
+    display: none;
+    padding-left: 8px;
+
+}
+.sor{
+   display: block;
+   width: 300px;
+   border-radius: 10px;
+    
+}
+@media (max-width : 700px){
+    body{
+        background-color: bisque;
+    }
+}
+.active2{
+    display: block;
+}
+.act2{
+    display: block;
+}
+.active3{
+    display: block;
+}
+.act3{
+    display: block;
+}
+input{
+    height: 20px;
+    position: absolute;
+    top: 18px;
+    right: 180px;
+    width: 0px;
+    border-radius: 20px;
+    display: none;
+}
+.sor{
+   display: block;
+  
+   animation: ddd 0.5s forwards ;
+}
+@keyframes ddd{
+    from{width: 0px;}
+    to{width: 300px;}
+}
+ .rrr{
+    
+    z-index: 100000;
+  transform:  translate(-350px)  ;
+  transition: 0.5s ;
+}
+/* new in css */
+.packsdesc1{
+    width: 86%;
+    height: 300px;
+    left: 7%;
+    border-radius: 20px;
+  position: absolute;
+    background-color: #171717 ;
+    transition: 0.5s;
+    transform: translateX(0px);
+   
+}
+.packsdesc2{
+    width: 86%;
+    height: 300px;
+    left: 7%;
+    border-radius: 20px;
+  position: absolute;
+    background-color: #171717 ;
+    transform: translateX(10000px);
+    transition: 0.5s;
+   
+}
+.packsdesc3{
+    width: 86%;
+    height: 300px;
+    left: 7%;
+    border-radius: 20px;
+  position: absolute;
+    background-color: #171717 ;
+    transition: 0.5s;
+    transform: translateX(10000px);
+    
+   
+}
+.go1{
+    transform: translate(-10000px);
+}
+.come2{
+    transform: translate(0px);
+}
+.go2{
+    transform: translate(-10000px);
+}
+.come3{
+    transform: translate(0px);
+}
+.tban{
+    display: block;
+}
+.troh{
+    display: none;
+}
+.tban1{
+    display: block;
+}
+
+
+
+
+/* the new: */
+/* zid bdl the .left-arrow put display none */
+/* new: the new here find packs1 and then you find a css from packs1 until shop-cart3 img then replace them by this */
+.packs1{
+    margin-top: 1px;
+    background-color: black ;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+   
+
+   
+}
+
+.pack1{
+    background-image: url(./pack1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:200px;
+    height: 200px;
+    border-radius: 50px;
+ position: absolute;
+ bottom: 50px;
+ left: 45px;
+   
+
+
+}
+
+.pack1desc{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 380px;
+    top: 20%;
+    color: white;
+}
+.shop-cart1{
+    
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    
+}
+.shop-cart1 img {
+    width: 50px;
+}
+.pack2{
+    background-image: url(./pack2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:200px;
+    height: 200px;
+    border-radius: 50px;
+ position: absolute;
+ bottom: 50px;
+ left: 45px;
+
+   
+
+
+}
+.pack2desc{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 380px;
+    top: 20%;
+    color: white;
+   
+}
+.shop-cart2{
+    
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+.shop-cart2 img {
+    width: 50px;
+}
+.pack3{
+    background-image: url(./pack3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:200px;
+    height: 200px;
+    border-radius: 50px;
+ position: absolute;
+ bottom: 50px;
+ left: 45px;
+ 
+   
+
+
+}
+.pack3desc{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 380px;
+    top: 20%;
+    color: white;
+   
+}
+.shop-cart3{
+    
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+.shop-cart3 img {
+    width: 50px;
+}
+/* new */
